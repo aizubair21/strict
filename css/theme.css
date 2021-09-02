@@ -1,0 +1,38 @@
+/* 
+@font-face {
+    font-family: 'opens-sans-regular';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'oswald-bold';
+    src: url('../fonts/Oswald/static/Oswald-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'oswald-regular';
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'myrid-pro-regular';
+    src: url('../fonts/myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF');
+} */
+
+
+@font-face {
+    font-family: 'lato';
+    src: url('../font/Lato-Regular.ttf');
+}
+p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "lato";
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
