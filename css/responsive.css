@@ -1,0 +1,54 @@
+@media (max-width:768px) {
+  .xs-hide {
+    display: none;
+  }
+
+  #banner .overlay .banner-heading {
+    font-size: 80px;
+  }
+
+  .about-us-body {
+    margin-bottom: 40px;
+  }
+
+  #card {
+    margin-bottom: 40px;
+  }
+  .common-heading {
+    font-size: 30px;
+  }
+  #portfolio .common-heading {
+    font-size: 22px;
+  }
+  #portfolio .common-heading p {
+    font-size: 12px;
+  }
+  #contact-us .common-heading {
+    font-size: 30px;
+    font-family: 'lato';
+  }
+  #contact-us .common-heading p {
+    font-size: 12px;
+    color: #999999;
+  }
+
+  form  {
+    padding: 0 20px;
+  }
+
+  footer p {
+    text-align: center;
+  }
+  footer .fab {
+    width: 20%;
+  }
+
+}
+
+@media (min-width:768px) {
+  .hide {
+    display: none;
+  }
+
+
+}
