@@ -63,3 +63,45 @@
   }
 
 }
+
+@media (max-width:992px) {
+  .navbar-light .collapse {
+
+    display: block !important;
+    position: absolute;
+    top: 35px;
+    left: -100%;
+    width: 100%;
+    background-color: rgba(245, 240, 240, 0.63);
+    height: 90vh;
+    box-sizing: border-box;
+    transition: ease-in-out .5s;
+  }
+  .navbar-light .collapse ul {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    /* border: 1px solid; */
+    padding: 0px 10px;
+    margin: 0px 10px;
+    box-sizing: border-box;
+  }
+  .nav-overlay {
+    background-color: rgba(245, 240, 240, 0.63);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+  }
+  .navbar-light .collapse ul li {
+    padding: 5px 15px;
+  }
+  .active {
+    background-color: rgba(0, 128, 0, 0.747);
+    
+  }
+  .navbar-light .collapse .active .nav-links {
+    color: white;
+  }
+}
